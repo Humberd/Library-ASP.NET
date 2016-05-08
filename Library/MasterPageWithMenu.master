@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MasterPageWithMenu.master.cs" Inherits="Library.MasterPageWithMenu" %>
+
+<asp:Content ID="masterDataContent" ContentPlaceHolderID="masterData" runat="server">
+    <div class="row rowPanel">
+        <div class="col-sm-3">
+            <div class="menuPanel">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2">
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="btn btn-success custom-button" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="btn btn-danger child-button" Font-Underline="False" />
+                    </LevelMenuItemStyles>
+                    <LevelSelectedStyles>
+                        <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                        <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                        <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                        <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                        <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                    </LevelSelectedStyles>
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="contentPanel">
+                <div class="well">
+                    <asp:ContentPlaceHolder ID="masterDataWithMenu" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

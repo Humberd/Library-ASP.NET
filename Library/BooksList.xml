@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<books>
+  <book id="1">
+    <title>Lord of the Rings</title>
+    <author>J. R. R. Tolkien</author>
+    <genres>
+      <genre>Fantasy</genre>
+      <genre>Novel</genre>
+      <genre>Adventure</genre>
+    </genres>
+  </book>
+  <book id="2">
+    <title>Harry Potter</title>
+    <author>J. K. Rowling</author>
+    <genres>
+      <genre>Fantasy</genre>
+      <genre>Dramma</genre>
+      <genre>Thriller</genre>
+    </genres>
+  </book>
+  <book id="3">
+    <title>The Chronicles of Narnia</title>
+    <author>C. S. Lewis</author>
+    <genres>
+      <genre>Fantasy</genre>
+    </genres>
+  </book>
+</books>

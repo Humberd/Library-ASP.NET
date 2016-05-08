@@ -1,0 +1,13 @@
+﻿.custom-button {
+    margin: 4px 10px;
+}
+.child-button {
+    margin: 2px 0;
+}
+.back-button {
+    position: relative;
+    bottom: 10px;
+}
+.inline-block {
+    display: inline-block !important;
+}
