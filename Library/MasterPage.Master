@@ -19,7 +19,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="navbar-brand" PostBackUrl="~/Home.aspx">Library</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="navbar-brand" PostBackUrl="~/Home.aspx" CausesValidation="false">Library</asp:LinkButton>
                 </div>
             </div>
         </div>

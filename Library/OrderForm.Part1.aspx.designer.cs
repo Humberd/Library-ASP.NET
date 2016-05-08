@@ -130,6 +130,15 @@ namespace Library {
         protected global::System.Web.UI.WebControls.TextBox address;
         
         /// <summary>
+        /// CancelButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton CancelButton3;
+        
+        /// <summary>
         /// OrderFormPart1Button control.
         /// </summary>
         /// <remarks>
@@ -191,6 +200,15 @@ namespace Library {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label AddressSummary;
+        
+        /// <summary>
+        /// CancelButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton CancelButton2;
         
         /// <summary>
         /// OrderFormPart2Back control.
