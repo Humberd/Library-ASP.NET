@@ -11,3 +11,20 @@
 .inline-block {
     display: inline-block !important;
 }
+.authors > div {
+    width: 50%;
+    margin: 0;
+}
+.authors > div:first-child {
+    float: left;
+}
+.authors > div:last-child {
+    float: right;
+}
+.authors {
+    margin-bottom: 40px;
+}
+.breakline {
+    border-top-color: black;
+    width: 90%;
+}

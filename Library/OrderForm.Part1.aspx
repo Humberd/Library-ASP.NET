@@ -46,7 +46,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-2">
-                            <asp:LinkButton ID="CancelButton3" runat="server" CssClass="btn btn-default btn-block" PostBackUrl="~/Home.aspx" CausesValidation="false">Cancel</asp:LinkButton>
+                            <asp:LinkButton ID="CancelButton3" runat="server" CssClass="btn btn-default btn-block" PostBackUrl="~/BooksList.aspx" CausesValidation="false">Cancel</asp:LinkButton>
                         </div>
                         <div class="col-xs-offset-8 col-xs-2">
                             <asp:Button ID="OrderFormPart1Button" runat="server" Text="Next" CssClass="btn btn-primary btn-block"
@@ -96,7 +96,7 @@
                     </table>
                     <div class="row">
                         <div class="col-xs-2">
-                             <asp:LinkButton ID="CancelButton2" runat="server" CssClass="btn btn-default btn-block" PostBackUrl="~/Home.aspx" CausesValidation="false">Cancel</asp:LinkButton>
+                             <asp:LinkButton ID="CancelButton2" runat="server" CssClass="btn btn-default btn-block" PostBackUrl="~/BooksList.aspx" CausesValidation="false">Cancel</asp:LinkButton>
                         </div>
                         <div class="col-xs-offset-6 col-xs-2">
                             <asp:Button ID="OrderFormPart2Back" runat="server" Text="Back" CssClass="btn btn-default btn-block"

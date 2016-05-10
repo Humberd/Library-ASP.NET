@@ -1,5 +1,11 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MasterPageWithMenu.master.cs" Inherits="Library.MasterPageWithMenu" %>
 
+<asp:Content ID="scripts" runat="server" ContentPlaceHolderID="scripts">
+    <asp:ContentPlaceHolder ID="scripts2" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
 <asp:Content ID="masterDataContent" ContentPlaceHolderID="masterData" runat="server">
     <div class="row rowPanel">
         <div class="col-sm-3">

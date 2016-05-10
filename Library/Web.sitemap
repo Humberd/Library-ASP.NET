@@ -4,7 +4,7 @@
     <siteMapNode url="Home.aspx" title="Home Page"/>
     <siteMapNode title="Links">
       <siteMapNode title="Books" url="BooksList.aspx"/>
-      <siteMapNode title="About Us"/>
+      <siteMapNode title="About Us" url="AboutUs.aspx"/>
     </siteMapNode>
   </siteMapNode>
 </siteMap>
