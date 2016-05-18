@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageWithMenu.master" AutoEventWireup="true" CodeBehind="BooksList.aspx.cs" Inherits="Library.BooksList" %>
 
 <asp:Content ID="content2" ContentPlaceHolderID="scripts2" runat="server">
-    <script src="Scripts/CustomJs.js"></script>
+    <script src="js/CustomJs.js"></script>
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="masterDataWithMenu" runat="server">
